@@ -1,0 +1,46 @@
+.user-list-container {
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+}
+
+.user-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.user-list-table th,
+.user-list-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.user-list-table th {
+    background-color: #f4f4f4;
+}
+
+.user-list-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.create-user-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.create-user-button:hover {
+    background-color: #0056b3;
+}
